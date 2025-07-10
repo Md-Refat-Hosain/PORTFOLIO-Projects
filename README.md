@@ -14,7 +14,7 @@ It is a comprehensive project.From data preprocessing to choose the best model (
 ### __1. Data Processing & Feature Engineering:__
 <img width="1305" height="503" alt="Screenshot 2025-07-10 at 8 30 25 PM" src="https://github.com/user-attachments/assets/d639ef19-0c20-451f-bdd5-9f70d050de2b" />
 <br><br>
-   - __Source Data:__ The project utilized a comprehensive dataset of car listings, including attributes such as mileage, horsepower, age, transmission details, and various ca
+__Source Data:__ The project utilized a comprehensive dataset of car listings, including attributes such as mileage, horsepower, age, transmission details, and various ca
  __Data Cleaning:__
 - Handled missing values through appropriate imputation strategies (e.g., median for numerical features, mode for categorical features).
 
