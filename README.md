@@ -43,34 +43,6 @@ https://github.com/user-attachments/assets/25a890e4-4134-4ff6-b740-54a5cad48151)
 
   <br><br>
 
-### __2. Model Development & Evaluation__
-
-- Model Selection: Explored a range of regression models to identify the best performer for the car price prediction task:
-
-- Linear Regression: Established a baseline understanding of linear relationships.
-
-- Random Forest Regressor: Leveraged ensemble learning for robust predictions and feature importance insights.
-
-- XGBoost Regressor (Extreme Gradient Boosting): Employed a highly optimized gradient boosting framework known for its performance on tabular data.
-
-__Hyperparameter Tuning:__ 
-- Utilized GridSearchCV with K-Fold Cross-Validation to systematically search for the optimal hyperparameters for the best-performing model, ensuring robust generalization and preventing overfitting.
-
-__Best Performing Model:__ 
-- The Hyperparameter Tuned XGBoost Regressor emerged as the top performer, demonstrating superior predictive accuracy compared to other models.
-
-__Evaluation Metrics:__ Model performance was rigorously assessed using:
-
-- __R-squared (R2):__ 
-- Measures the proportion of variance in the dependent variable that can be predicted from the independent variables. Achieved an R2 of 0.8072 (on log-transformed prices) with the best XGBoost model.
-
-__Mean Absolute Error (MAE):__ Represents the average magnitude of the errors in a set of predictions, without considering their direction. Achieved an MAE of $17,641.91 (on original price scale).
-
-__Root Mean Squared Error (RMSE):__ A measure of the differences between values predicted by a model and the values actually observed. The RMSE of $154,451.56 (on original price scale) indicated the presence of a few very large errors, primarily on high-value outlier cars, which was further investigated through residual analysis.
-
-<img width="3780" height="1890" alt="Untitled design" src="https://github.com/user-attachments/assets/ecd0ea26-7b52-4d6c-931a-e6e9a5992ffe" />
-
-
 # ✨ Key Insights
 
 ### __Insigts from various continuous features__
@@ -104,6 +76,34 @@ __Root Mean Squared Error (RMSE):__ A measure of the differences between values 
 <img width="1339" height="244" alt="Screenshot 2025-07-10 at 6 40 54 PM" src="https://github.com/user-attachments/assets/9f6eabef-165a-45f6-a829-b574d48d0ef0" />
 
 
+
+
+# __Model Development & Evaluation__
+
+- Model Selection: Explored a range of regression models to identify the best performer for the car price prediction task:
+
+- Linear Regression: Established a baseline understanding of linear relationships.
+
+- Random Forest Regressor: Leveraged ensemble learning for robust predictions and feature importance insights.
+
+- XGBoost Regressor (Extreme Gradient Boosting): Employed a highly optimized gradient boosting framework known for its performance on tabular data.
+
+__Hyperparameter Tuning:__ 
+- Utilized GridSearchCV with K-Fold Cross-Validation to systematically search for the optimal hyperparameters for the best-performing model, ensuring robust generalization and preventing overfitting.
+
+__Best Performing Model:__ 
+- The Hyperparameter Tuned XGBoost Regressor emerged as the top performer, demonstrating superior predictive accuracy compared to other models.
+
+__Evaluation Metrics:__ Model performance was rigorously assessed using:
+
+- __R-squared (R2):__ 
+- Measures the proportion of variance in the dependent variable that can be predicted from the independent variables. Achieved an R2 of 0.8072 (on log-transformed prices) with the best XGBoost model.
+
+__Mean Absolute Error (MAE):__ Represents the average magnitude of the errors in a set of predictions, without considering their direction. Achieved an MAE of $17,641.91 (on original price scale).
+
+__Root Mean Squared Error (RMSE):__ A measure of the differences between values predicted by a model and the values actually observed. The RMSE of $154,451.56 (on original price scale) indicated the presence of a few very large errors, primarily on high-value outlier cars, which was further investigated through residual analysis.
+
+<img width="3780" height="1890" alt="Untitled design" src="https://github.com/user-attachments/assets/ecd0ea26-7b52-4d6c-931a-e6e9a5992ffe" />
 
 
 
