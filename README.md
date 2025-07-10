@@ -1,5 +1,9 @@
 
+
+
 <img width="1536" height="1024" alt="ChatGPT Image Jul 10, 2025, 08_50_28 AM" src="https://github.com/user-attachments/assets/8efdb36f-443b-4ee4-9455-9f4c2f1f00a6" />
+<br><br>
+
 # Used car price prediction 
 It is a comprehensive project.From data preprocessing to choose the best model (FastAPI is coming soon)
 
@@ -31,13 +35,13 @@ __Data Transformation:__
 - Used One-Hot Encoding for nominal categorical features and potentially Target Encoding / Label Encoding for high-cardinality features to convert them into a numerical format suitable for machine learning models.
 
 - Standardization/Normalization was applied to numerical features to scale them consistently.
+- (bewlo a glims of whole data preprocessing)
 [<img width="1432" height="410" alt="Screenshot 2025-07-10 at 4 47 14 PM" src="https://github.com/user-attachments/assets/5701b36a-300a-43e5-b57c-fe8611c6abe3" />](
-
 https://github.com/user-attachments/assets/25a890e4-4134-4ff6-b740-54a5cad48151)
 
 
 
-  
+  <br><br>
 
 ### __2. Model Development & Evaluation__
 
@@ -69,19 +73,19 @@ __Root Mean Squared Error (RMSE):__ A measure of the differences between values 
 
 # ✨ Key Insights
 
-### __insigts from various continuous features__
+### __Insigts from various continuous features__
 <br><br>
 <img width="1361" height="664" alt="Screenshot 2025-07-10 at 6 33 41 PM" src="https://github.com/user-attachments/assets/10c1d174-87b8-4d7d-b523-43d24d641632" />
 <br><br>
 <img width="1107" height="191" alt="Screenshot 2025-07-10 at 6 34 38 PM" src="https://github.com/user-attachments/assets/8dd70291-119a-4ad3-9ea2-5ef47cede962" />
-### __insigts from comparing bivariate features against price__
+### __Insigts from comparing bivariate features against price__
 <br><br>
 <img width="3780" height="1890" alt="Copy of Untitled Design" src="https://github.com/user-attachments/assets/6a4f038b-ee2a-4d03-9f90-028e9164e3d0" />
 <br><br>
 <img width="1339" height="210" alt="Screenshot 2025-07-10 at 6 40 10 PM" src="https://github.com/user-attachments/assets/f1df643c-3be7-476c-b327-f0edb0853632" />
 
 <br><br>
-### __wihich sort of car got more sales__
+### __Wihich sort of car got more sales__
 <br><br>
 <img width="1037" height="599" alt="Screenshot 2025-07-10 at 6 36 31 PM" src="https://github.com/user-attachments/assets/d90101ec-c42e-43e1-a6e4-bf283aa21d76" />
 <br><br>
@@ -89,13 +93,13 @@ __Root Mean Squared Error (RMSE):__ A measure of the differences between values 
 <img width="1373" height="213" alt="Screenshot 2025-07-10 at 8 21 22 PM" src="https://github.com/user-attachments/assets/8690410a-148b-43e1-b2a8-aca0492ba87f" />
 <br><br>
 
-### __problamatic correlation detection among independent features__ 
+### __Problamatic correlation detection among independent features__ 
 <br><br>
 <img width="306" height="622" alt="Screenshot 2025-07-10 at 6 41 45 PM" src="https://github.com/user-attachments/assets/66a4d0e0-3433-4365-809d-0ee74baf2023" />
 <br><br>
 <img width="1373" height="120" alt="Screenshot 2025-07-10 at 6 42 15 PM" src="https://github.com/user-attachments/assets/071bd246-0bd8-46f5-9262-48ce56a2193b" />
 <br><br>
-### __outliers detection (Organic Outliers)__ 
+### __Outliers detection (Organic Outliers)__ 
 
 <img width="1339" height="244" alt="Screenshot 2025-07-10 at 6 40 54 PM" src="https://github.com/user-attachments/assets/9f6eabef-165a-45f6-a829-b574d48d0ef0" />
 
