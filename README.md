@@ -14,8 +14,8 @@ It is a comprehensive project.From data preprocessing to choose the best model (
 ### __1. Data Processing & Feature Engineering:__
 <img width="1305" height="503" alt="Screenshot 2025-07-10 at 8 30 25 PM" src="https://github.com/user-attachments/assets/d639ef19-0c20-451f-bdd5-9f70d050de2b" />
 <br><br>
-__Source Data:__ The project utilized a comprehensive dataset of car listings, including attributes such as mileage, horsepower, age, transmission details, and various ca
- __Data Cleaning:__
+
+__Data Cleaning:__
 - Handled missing values through appropriate imputation strategies (e.g., median for numerical features, mode for categorical features).
 
 - Identified and addressed outliers in numerical features (ex: price, mileage, horsepower) to improve model robustness.
@@ -33,9 +33,8 @@ __Data Transformation:__
 - Used One-Hot Encoding for nominal categorical features and potentially Target Encoding / Label Encoding for high-cardinality features to convert them into a numerical format suitable for machine learning models.
 
 - Standardization/Normalization was applied to numerical features to scale them consistently.
-- (bewlo a glims of whole data preprocessing)
-[<img width="1432" height="410" alt="Screenshot 2025-07-10 at 4 47 14 PM" src="https://github.com/user-attachments/assets/5701b36a-300a-43e5-b57c-fe8611c6abe3" />](
-https://github.com/user-attachments/assets/25a890e4-4134-4ff6-b740-54a5cad48151)
+- ( After data preprocessing look)
+[<img width="1432" height="410" alt="Screenshot 2025-07-10 at 4 47 14 PM" src="https://github.com/user-attachments/assets/5701b36a-300a-43e5-b57c-fe8611c6abe3" />](https://youtu.be/sf5lNF4LPTY?si=V6rxU-8YiPHEe9Gb)
 
 
 
@@ -63,7 +62,7 @@ https://github.com/user-attachments/assets/25a890e4-4134-4ff6-b740-54a5cad48151)
 <img width="1373" height="213" alt="Screenshot 2025-07-10 at 8 21 22 PM" src="https://github.com/user-attachments/assets/8690410a-148b-43e1-b2a8-aca0492ba87f" />
 <br><br>
 
-### __Problamatic correlation detection among independent features__ 
+### __Problamatic multicolinearity detection among independent features__ 
 <br><br>
 <img width="306" height="622" alt="Screenshot 2025-07-10 at 6 41 45 PM" src="https://github.com/user-attachments/assets/66a4d0e0-3433-4365-809d-0ee74baf2023" />
 <br><br>
