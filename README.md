@@ -53,7 +53,10 @@ This section presents the key findings and visualizations from the Exploratory D
 
 * These visualizations explore the relationships between individual features and the target variable (car price), helping to identify features with strong predictive power and patterns.
     ![Bivariate Features vs Price](https://github.com/user-attachments/assets/6a4f038b-ee2a-4d03-9f90-028e9164e3d0)
-    ![Bivariate Features vs Price Text](https://github.com/user-attachments/assets/f1df643c-3be7-4365-809d-0ee74baf2023)
+<img width="1339" height="210" alt="Screenshot 2025-07-10 at 6 40 10 PM" src="https://github.com/user-attachments/assets/ded0b2d2-b0a9-4cd6-bc42-a2cc8ca363cf" />
+
+
+
 
 ### Which Sort of Car Got More Sales
 
@@ -64,17 +67,26 @@ This section presents the key findings and visualizations from the Exploratory D
 ### Problematic Correlation Detection Among Independent Features
 
 * This section highlights the detection of multicollinearity among independent features using a correlation matrix, which can impact model stability and interpretability.
-    ![Correlation Matrix](https://github.com/user-attachments/assets/66a4d0e0-3433-4365-809d-0ee74baf2023)
+
+  <img width="826" height="435" alt="Screenshot 2025-07-12 at 11 34 50 AM" src="https://github.com/user-attachments/assets/976d4b2e-b4cd-4d9a-8123-5e502f0b9298" />
+
     ![Correlation Matrix Text](https://github.com/user-attachments/assets/071bd246-0bd8-46f5-9262-48ce56a2193b)
 
 ### Outliers Detection (Organic Outliers)
 
 * This visualization helps in identifying natural (organic) outliers within the dataset, which are extreme but valid data points, distinct from data entry errors, and require careful handling.
-    ![Outliers Detection](https://github.user-attachments.assets/9f6eabef-165a-45f6-a829-b574d48d0ef0)
+<img width="1339" height="244" alt="Screenshot 2025-07-10 at 6 40 54 PM" src="https://github.com/user-attachments/assets/c04920b3-a05b-4923-b5b6-0e494a4a2679" />
 
 ## ⚙️ Technical Aspects
 
 This section details the technical methodologies and tools employed throughout the Car Price Prediction project, from data ingestion to model development.
+
+
+(Before data preprocessing snapshot)
+<img width="2362" height="1181" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/83019830-fc2d-403b-8c22-d586e70d0cd9" />
+
+
+
 
 ### 1. Data Processing & Feature Engineering
 
@@ -101,8 +113,8 @@ This section details the technical methodologies and tools employed throughout t
 
 * Standardization/Normalization was applied to numerical features to scale them consistently.
 * Below is a glimpse of the whole data preprocessing:
-    ![Processed Data Snapshot](https://github.com/user-attachments/assets/5701b36a-300a-43e5-b57c-fe8611c6abe3)
-    \[Optional: Link to a video walkthrough of preprocessing if `https://github.com/user-attachments/assets/25a890e4-4134-4ff6-b740-54a5cad48151` is relevant here]
+    [<img width="1432" height="410" alt="Screenshot 2025-07-10 at 4 46 42 PM" src="https://github.com/user-attachments/assets/3813c89d-47a0-4ff8-9bb0-9c200d15eebc" />](https://youtu.be/sf5lNF4LPTYsi=dHbAVIKeAEd46awW)
+
 
 ## ⚙️ Technical Aspects: Model Development & Evaluation
 
