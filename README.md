@@ -64,7 +64,7 @@ This section presents the key findings and visualizations from the Exploratory D
     ![Car Sales Distribution](https://github.com/user-attachments/assets/d90101ec-c42e-43e1-a6e4-bf283aa21d76)
     ![Car Sales Distribution Text](https://github.com/user-attachments/assets/8690410a-148b-43e1-b2a8-aca0492ba87f)
 
-### Problematic Correlation Detection Among Independent Features
+### Problematic multicolinearity Detection Among Independent Features
 
 * This section highlights the detection of multicollinearity among independent features using a correlation matrix, which can impact model stability and interpretability.
 
@@ -112,7 +112,7 @@ This section details the technical methodologies and tools employed throughout t
 * Used One-Hot Encoding for nominal categorical features and potentially Target Encoding / Label Encoding for high-cardinality features to convert them into a numerical format suitable for machine learning models.
 
 * Standardization/Normalization was applied to numerical features to scale them consistently.
-* Below is a glimpse of the whole data preprocessing:
+* (After data preprocessing video: please click on it )
     [<img width="1432" height="410" alt="Screenshot 2025-07-10 at 4 46 42 PM" src="https://github.com/user-attachments/assets/3813c89d-47a0-4ff8-9bb0-9c200d15eebc" />](https://youtu.be/sf5lNF4LPTYsi=dHbAVIKeAEd46awW)
 
 
